@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="21" passed="18">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Invalid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Main Menu<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Click on Log Out<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Select Backpack product<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 3.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6.- Click Back To Products button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7.- Select Bike Light product<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 8.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 9.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 10.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 11.- Click Cart Icon<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 12.- Your Cart title is displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 13.- Backpack Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 14.- Bike Light Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 10.- Click CheckOut button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 11.- Your Infromation Was Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 12.- Set Valid User Information<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 13.- Click Continue button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 14.- Scroll to Finish button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 15.- Scroll to Finish button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 16.- Completed Screen was displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 17.- Thanks Text was displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Invalid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Main Menu<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Click on Log Out<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Invalid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Main Menu<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Click on Log Out<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Select Backpack product<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 3.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6.- Click Back To Products button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7.- Select Bike Light product<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 8.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 9.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 10.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 11.- Click Cart Icon<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 12.- Your Cart title is displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 13.- Backpack Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 14.- Bike Light Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 10.- Click CheckOut button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 11.- Your Infromation Was Displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 12.- Set Valid User Information<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 13.- Click Continue button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 14.- Scroll to Finish button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 15.- Scroll to Finish button<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 16.- Completed Screen was displayed</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><b style="color:green">Step 17.- Thanks Text was displayed</b><br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Saucedemo QA" duration-ms="834219" started-at="2021-05-31T18:12:40Z" finished-at="2021-05-31T18:26:34Z">
+    <groups>
+    </groups>
+    <test name="Regression Suite" duration-ms="254354" started-at="2021-05-31T18:12:40Z" finished-at="2021-05-31T18:16:54Z">
+      <class name="testSection.LogInValidUser">
+        <test-method status="PASS" signature="logInValidUser(java.lang.String, java.lang.String)[pri:1, instance:testSection.LogInValidUser@523884b2]" name="logInValidUser" duration-ms="5246" started-at="2021-05-31T13:14:28Z" description="1 - Login with a valid user" data-provider="ExcelInfo" finished-at="2021-05-31T13:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInValidUser -->
+      </class> <!-- testSection.LogInValidUser -->
+      <class name="testSection.MultipleItemsShopping">
+        <test-method status="PASS" signature="multipleItemsShopping(java.lang.String, java.lang.String)[pri:5, instance:testSection.MultipleItemsShopping@3ffc5af1]" name="multipleItemsShopping" duration-ms="35638" started-at="2021-05-31T13:14:58Z" description="5 - Add Multiple Items to the shopping cart" data-provider="ExcelInfo" finished-at="2021-05-31T13:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Select Backpack product<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 3.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 6.- Click Back To Products button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 7.- Select Bike Light product<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 8.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 9.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 10.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 11.- Click Cart Icon<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 12.- Your Cart title is displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 13.- Backpack Was Added</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 14.- Bike Light Was Added</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multipleItemsShopping -->
+      </class> <!-- testSection.MultipleItemsShopping -->
+      <class name="testSection.SortProducts">
+        <test-method status="PASS" signature="sortProductsLowToHigh(java.lang.String, java.lang.String)[pri:1, instance:testSection.SortProducts@29774679]" name="sortProductsLowToHigh" duration-ms="2534" started-at="2021-05-31T13:14:55Z" description="4 - Sort Products" data-provider="ExcelInfo" finished-at="2021-05-31T13:14:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortProductsLowToHigh -->
+      </class> <!-- testSection.SortProducts -->
+      <class name="testSection.AddSpecificProduct">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.AddSpecificProduct@5e5792a0]" name="setDriver" is-config="true" duration-ms="10450" started-at="2021-05-31T13:12:40Z" finished-at="2021-05-31T13:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.CompletePurchase@26653222]" name="setDriver" is-config="true" duration-ms="19280" started-at="2021-05-31T13:12:51Z" finished-at="2021-05-31T13:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogInInvalidUser@5b275dab]" name="setDriver" is-config="true" duration-ms="10358" started-at="2021-05-31T13:13:10Z" finished-at="2021-05-31T13:13:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogInValidUser@523884b2]" name="setDriver" is-config="true" duration-ms="11338" started-at="2021-05-31T13:13:20Z" finished-at="2021-05-31T13:13:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogOutHomePage@61832929]" name="setDriver" is-config="true" duration-ms="20770" started-at="2021-05-31T13:13:32Z" finished-at="2021-05-31T13:13:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.MultipleItemsShopping@3ffc5af1]" name="setDriver" is-config="true" duration-ms="28232" started-at="2021-05-31T13:13:52Z" finished-at="2021-05-31T13:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.SortProducts@29774679]" name="setDriver" is-config="true" duration-ms="6569" started-at="2021-05-31T13:14:21Z" finished-at="2021-05-31T13:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="addSpecificProduct(java.lang.String, java.lang.String)[pri:6, instance:testSection.AddSpecificProduct@5e5792a0]" name="addSpecificProduct" duration-ms="27563" started-at="2021-05-31T13:15:39Z" description="6 - Add Specific Items to the shopping cart" data-provider="ExcelInfo" finished-at="2021-05-31T13:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addSpecificProduct -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.AddSpecificProduct@5e5792a0]" name="removeDriver" is-config="true" duration-ms="637" started-at="2021-05-31T13:16:50Z" finished-at="2021-05-31T13:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.CompletePurchase@26653222]" name="removeDriver" is-config="true" duration-ms="714" started-at="2021-05-31T13:16:51Z" finished-at="2021-05-31T13:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogInInvalidUser@5b275dab]" name="removeDriver" is-config="true" duration-ms="640" started-at="2021-05-31T13:16:51Z" finished-at="2021-05-31T13:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogInValidUser@523884b2]" name="removeDriver" is-config="true" duration-ms="617" started-at="2021-05-31T13:16:52Z" finished-at="2021-05-31T13:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogOutHomePage@61832929]" name="removeDriver" is-config="true" duration-ms="645" started-at="2021-05-31T13:16:53Z" finished-at="2021-05-31T13:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.MultipleItemsShopping@3ffc5af1]" name="removeDriver" is-config="true" duration-ms="650" started-at="2021-05-31T13:16:53Z" finished-at="2021-05-31T13:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.SortProducts@29774679]" name="removeDriver" is-config="true" duration-ms="623" started-at="2021-05-31T13:16:54Z" finished-at="2021-05-31T13:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+      </class> <!-- testSection.AddSpecificProduct -->
+      <class name="testSection.LogInInvalidUser">
+        <test-method status="PASS" signature="logInInvalidValidUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testSection.LogInInvalidUser@5b275dab]" name="logInInvalidValidUser" duration-ms="5171" started-at="2021-05-31T13:14:33Z" description="2 - Login with an invalid user" data-provider="ExcelInfo" finished-at="2021-05-31T13:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alejandro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fernandez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Invalid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInInvalidValidUser -->
+      </class> <!-- testSection.LogInInvalidUser -->
+      <class name="testSection.CompletePurchase">
+        <test-method status="PASS" signature="completePurchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testSection.CompletePurchase@26653222]" name="completePurchase" duration-ms="42950" started-at="2021-05-31T13:16:07Z" description="7 - Complete Purchase Flow" data-provider="ExcelInfo" finished-at="2021-05-31T13:16:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alejandro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fernandez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[66647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 10.- Click CheckOut button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 11.- Your Infromation Was Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 12.- Set Valid User Information<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 13.- Click Continue button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 14.- Scroll to Finish button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 15.- Scroll to Finish button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 16.- Completed Screen was displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 17.- Thanks Text was displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completePurchase -->
+      </class> <!-- testSection.CompletePurchase -->
+      <class name="testSection.LogOutHomePage">
+        <test-method status="PASS" signature="logOutHomePage(java.lang.String, java.lang.String)[pri:1, instance:testSection.LogOutHomePage@61832929]" name="logOutHomePage" duration-ms="17350" started-at="2021-05-31T13:14:38Z" description="3 - Logout from the home page" data-provider="ExcelInfo" finished-at="2021-05-31T13:14:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Main Menu<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Click on Log Out<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutHomePage -->
+      </class> <!-- testSection.LogOutHomePage -->
+    </test> <!-- Regression Suite -->
+    <test name="Individual Suite FireFox" duration-ms="263572" started-at="2021-05-31T18:16:54Z" finished-at="2021-05-31T18:21:18Z">
+      <class name="testSection.LogInValidUser">
+        <test-method status="PASS" signature="logInValidUser(java.lang.String, java.lang.String)[pri:1, instance:testSection.LogInValidUser@57baeedf]" name="logInValidUser" duration-ms="351" started-at="2021-05-31T13:19:40Z" description="1 - Login with a valid user" data-provider="ExcelInfo" finished-at="2021-05-31T13:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInValidUser -->
+      </class> <!-- testSection.LogInValidUser -->
+      <class name="testSection.MultipleItemsShopping">
+        <test-method status="FAIL" signature="multipleItemsShopping(java.lang.String, java.lang.String)[pri:5, instance:testSection.MultipleItemsShopping@548e7350]" name="multipleItemsShopping" duration-ms="326" started-at="2021-05-31T13:19:46Z" description="5 - Add Multiple Items to the shopping cart" data-provider="ExcelInfo" finished-at="2021-05-31T13:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a id="item_4_title_link" href="#"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QOES4O', ip: '192.168.1.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 15076, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a5c9c04-a570-4fb2-adca-cddbb02c2b86]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a id="item_4_title_link" href="#"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QOES4O', ip: '192.168.1.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 15076, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a5c9c04-a570-4fb2-adca-cddbb02c2b86
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProductScreen.clickBackPack(ProductScreen.java:88)
+	at testSection.MultipleItemsShopping.multipleItemsShopping(MultipleItemsShopping.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multipleItemsShopping -->
+      </class> <!-- testSection.MultipleItemsShopping -->
+      <class name="testSection.SortProducts">
+        <test-method status="PASS" signature="sortProductsLowToHigh(java.lang.String, java.lang.String)[pri:1, instance:testSection.SortProducts@5442a311]" name="sortProductsLowToHigh" duration-ms="2835" started-at="2021-05-31T13:19:44Z" description="4 - Sort Products" data-provider="ExcelInfo" finished-at="2021-05-31T13:19:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortProductsLowToHigh -->
+      </class> <!-- testSection.SortProducts -->
+      <class name="testSection.LogInInvalidUser">
+        <test-method status="PASS" signature="logInInvalidValidUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testSection.LogInInvalidUser@343f4d3d]" name="logInInvalidValidUser" duration-ms="312" started-at="2021-05-31T13:19:41Z" description="2 - Login with an invalid user" data-provider="ExcelInfo" finished-at="2021-05-31T13:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alejandro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fernandez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Invalid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInInvalidValidUser -->
+      </class> <!-- testSection.LogInInvalidUser -->
+      <class name="testSection.AddSpecificProduct">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.AddSpecificProduct@1a968a59]" name="setDriver" is-config="true" duration-ms="23472" started-at="2021-05-31T13:16:54Z" finished-at="2021-05-31T13:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.CompletePurchase@4667ae56]" name="setDriver" is-config="true" duration-ms="24644" started-at="2021-05-31T13:17:18Z" finished-at="2021-05-31T13:17:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogInInvalidUser@343f4d3d]" name="setDriver" is-config="true" duration-ms="22581" started-at="2021-05-31T13:17:43Z" finished-at="2021-05-31T13:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogInValidUser@57baeedf]" name="setDriver" is-config="true" duration-ms="22368" started-at="2021-05-31T13:18:05Z" finished-at="2021-05-31T13:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogOutHomePage@53b32d7]" name="setDriver" is-config="true" duration-ms="27799" started-at="2021-05-31T13:18:28Z" finished-at="2021-05-31T13:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.MultipleItemsShopping@548e7350]" name="setDriver" is-config="true" duration-ms="28732" started-at="2021-05-31T13:18:55Z" finished-at="2021-05-31T13:19:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.SortProducts@5442a311]" name="setDriver" is-config="true" duration-ms="16067" started-at="2021-05-31T13:19:24Z" finished-at="2021-05-31T13:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="FAIL" signature="addSpecificProduct(java.lang.String, java.lang.String)[pri:6, instance:testSection.AddSpecificProduct@1a968a59]" name="addSpecificProduct" duration-ms="2756" started-at="2021-05-31T13:19:47Z" description="6 - Add Specific Items to the shopping cart" data-provider="ExcelInfo" finished-at="2021-05-31T13:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a id="item_2_title_link" href="#"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QOES4O', ip: '192.168.1.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 23804, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b6bf0378-3d4f-499e-9a32-75e9ad1dfa88]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a id="item_2_title_link" href="#"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QOES4O', ip: '192.168.1.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 23804, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b6bf0378-3d4f-499e-9a32-75e9ad1dfa88
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProductScreen.clickOnesie(ProductScreen.java:99)
+	at testSection.AddSpecificProduct.addSpecificProduct(AddSpecificProduct.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addSpecificProduct -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.AddSpecificProduct@1a968a59]" name="removeDriver" is-config="true" duration-ms="8510" started-at="2021-05-31T13:19:52Z" finished-at="2021-05-31T13:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.CompletePurchase@4667ae56]" name="removeDriver" is-config="true" duration-ms="3871" started-at="2021-05-31T13:20:01Z" finished-at="2021-05-31T13:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogInInvalidUser@343f4d3d]" name="removeDriver" is-config="true" duration-ms="16709" started-at="2021-05-31T13:20:05Z" finished-at="2021-05-31T13:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogInValidUser@57baeedf]" name="removeDriver" is-config="true" duration-ms="11130" started-at="2021-05-31T13:20:21Z" finished-at="2021-05-31T13:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogOutHomePage@53b32d7]" name="removeDriver" is-config="true" duration-ms="5389" started-at="2021-05-31T13:20:33Z" finished-at="2021-05-31T13:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.MultipleItemsShopping@548e7350]" name="removeDriver" is-config="true" duration-ms="38390" started-at="2021-05-31T13:20:38Z" finished-at="2021-05-31T13:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.SortProducts@5442a311]" name="removeDriver" is-config="true" duration-ms="1726" started-at="2021-05-31T13:21:16Z" finished-at="2021-05-31T13:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+      </class> <!-- testSection.AddSpecificProduct -->
+      <class name="testSection.CompletePurchase">
+        <test-method status="FAIL" signature="completePurchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testSection.CompletePurchase@4667ae56]" name="completePurchase" duration-ms="2755" started-at="2021-05-31T13:19:50Z" description="7 - Complete Purchase Flow" data-provider="ExcelInfo" finished-at="2021-05-31T13:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alejandro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fernandez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[66647]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a id="item_2_title_link" href="#"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QOES4O', ip: '192.168.1.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 21040, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e14d42bc-254a-43d7-8b01-e132c7d1d382]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a id="item_2_title_link" href="#"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2QOES4O', ip: '192.168.1.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 21040, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e14d42bc-254a-43d7-8b01-e132c7d1d382
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProductScreen.clickOnesie(ProductScreen.java:99)
+	at testSection.CompletePurchase.completePurchase(CompletePurchase.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completePurchase -->
+      </class> <!-- testSection.CompletePurchase -->
+      <class name="testSection.LogOutHomePage">
+        <test-method status="PASS" signature="logOutHomePage(java.lang.String, java.lang.String)[pri:1, instance:testSection.LogOutHomePage@53b32d7]" name="logOutHomePage" duration-ms="2777" started-at="2021-05-31T13:19:41Z" description="3 - Logout from the home page" data-provider="ExcelInfo" finished-at="2021-05-31T13:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Main Menu<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Click on Log Out<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutHomePage -->
+      </class> <!-- testSection.LogOutHomePage -->
+    </test> <!-- Individual Suite FireFox -->
+    <test name="Individual Suite Edge" duration-ms="316267" started-at="2021-05-31T18:21:18Z" finished-at="2021-05-31T18:26:34Z">
+      <class name="testSection.LogInValidUser">
+        <test-method status="PASS" signature="logInValidUser(java.lang.String, java.lang.String)[pri:1, instance:testSection.LogInValidUser@6eebc39e]" name="logInValidUser" duration-ms="415" started-at="2021-05-31T13:24:46Z" description="1 - Login with a valid user" data-provider="ExcelInfo" finished-at="2021-05-31T13:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInValidUser -->
+      </class> <!-- testSection.LogInValidUser -->
+      <class name="testSection.MultipleItemsShopping">
+        <test-method status="PASS" signature="multipleItemsShopping(java.lang.String, java.lang.String)[pri:5, instance:testSection.MultipleItemsShopping@239963d8]" name="multipleItemsShopping" duration-ms="1047" started-at="2021-05-31T13:24:51Z" description="5 - Add Multiple Items to the shopping cart" data-provider="ExcelInfo" finished-at="2021-05-31T13:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Select Backpack product<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 3.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 6.- Click Back To Products button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 7.- Select Bike Light product<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 8.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 9.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 10.- Validate If Product Detail Remove button is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 11.- Click Cart Icon<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 12.- Your Cart title is displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 13.- Backpack Was Added</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 14.- Bike Light Was Added</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multipleItemsShopping -->
+      </class> <!-- testSection.MultipleItemsShopping -->
+      <class name="testSection.SortProducts">
+        <test-method status="PASS" signature="sortProductsLowToHigh(java.lang.String, java.lang.String)[pri:1, instance:testSection.SortProducts@13deb50e]" name="sortProductsLowToHigh" duration-ms="2545" started-at="2021-05-31T13:24:49Z" description="4 - Sort Products" data-provider="ExcelInfo" finished-at="2021-05-31T13:24:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortProductsLowToHigh -->
+      </class> <!-- testSection.SortProducts -->
+      <class name="testSection.LogInInvalidUser">
+        <test-method status="PASS" signature="logInInvalidValidUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testSection.LogInInvalidUser@464bee09]" name="logInInvalidValidUser" duration-ms="218" started-at="2021-05-31T13:24:46Z" description="2 - Login with an invalid user" data-provider="ExcelInfo" finished-at="2021-05-31T13:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alejandro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[fernandez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Invalid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInInvalidValidUser -->
+      </class> <!-- testSection.LogInInvalidUser -->
+      <class name="testSection.AddSpecificProduct">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.AddSpecificProduct@3abbfa04]" name="setDriver" is-config="true" duration-ms="20741" started-at="2021-05-31T13:21:18Z" finished-at="2021-05-31T13:21:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.CompletePurchase@57fffcd7]" name="setDriver" is-config="true" duration-ms="13045" started-at="2021-05-31T13:21:39Z" finished-at="2021-05-31T13:21:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogInInvalidUser@464bee09]" name="setDriver" is-config="true" duration-ms="16110" started-at="2021-05-31T13:21:52Z" finished-at="2021-05-31T13:22:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogInValidUser@6eebc39e]" name="setDriver" is-config="true" duration-ms="25968" started-at="2021-05-31T13:22:08Z" finished-at="2021-05-31T13:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.LogOutHomePage@f6c48ac]" name="setDriver" is-config="true" duration-ms="30573" started-at="2021-05-31T13:22:34Z" finished-at="2021-05-31T13:23:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.MultipleItemsShopping@239963d8]" name="setDriver" is-config="true" duration-ms="52288" started-at="2021-05-31T13:23:04Z" finished-at="2021-05-31T13:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:testSection.SortProducts@13deb50e]" name="setDriver" is-config="true" duration-ms="48810" started-at="2021-05-31T13:23:57Z" finished-at="2021-05-31T13:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="addSpecificProduct(java.lang.String, java.lang.String)[pri:6, instance:testSection.AddSpecificProduct@3abbfa04]" name="addSpecificProduct" duration-ms="14414" started-at="2021-05-31T13:24:52Z" description="6 - Add Specific Items to the shopping cart" data-provider="ExcelInfo" finished-at="2021-05-31T13:25:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addSpecificProduct -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.AddSpecificProduct@3abbfa04]" name="removeDriver" is-config="true" duration-ms="14605" started-at="2021-05-31T13:25:10Z" finished-at="2021-05-31T13:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.CompletePurchase@57fffcd7]" name="removeDriver" is-config="true" duration-ms="14575" started-at="2021-05-31T13:25:25Z" finished-at="2021-05-31T13:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogInInvalidUser@464bee09]" name="removeDriver" is-config="true" duration-ms="14217" started-at="2021-05-31T13:25:39Z" finished-at="2021-05-31T13:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogInValidUser@6eebc39e]" name="removeDriver" is-config="true" duration-ms="5276" started-at="2021-05-31T13:25:53Z" finished-at="2021-05-31T13:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.LogOutHomePage@f6c48ac]" name="removeDriver" is-config="true" duration-ms="19341" started-at="2021-05-31T13:25:59Z" finished-at="2021-05-31T13:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.MultipleItemsShopping@239963d8]" name="removeDriver" is-config="true" duration-ms="4736" started-at="2021-05-31T13:26:18Z" finished-at="2021-05-31T13:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:testSection.SortProducts@13deb50e]" name="removeDriver" is-config="true" duration-ms="11526" started-at="2021-05-31T13:26:23Z" finished-at="2021-05-31T13:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+      </class> <!-- testSection.AddSpecificProduct -->
+      <class name="testSection.CompletePurchase">
+        <test-method status="PASS" signature="completePurchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testSection.CompletePurchase@57fffcd7]" name="completePurchase" duration-ms="3277" started-at="2021-05-31T13:25:07Z" description="7 - Complete Purchase Flow" data-provider="ExcelInfo" finished-at="2021-05-31T13:25:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alejandro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fernandez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[66647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Filter List<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Select Filter Low to High<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4.- Click on Onesie Item<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 6.- Click Add to Cart button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 7.- Click Cart Icon<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 9.- Oneside Was Added</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 10.- Click CheckOut button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 11.- Your Infromation Was Displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 12.- Set Valid User Information<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 13.- Click Continue button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 14.- Scroll to Finish button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 15.- Scroll to Finish button<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 16.- Completed Screen was displayed</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 17.- Thanks Text was displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completePurchase -->
+      </class> <!-- testSection.CompletePurchase -->
+      <class name="testSection.LogOutHomePage">
+        <test-method status="PASS" signature="logOutHomePage(java.lang.String, java.lang.String)[pri:1, instance:testSection.LogOutHomePage@f6c48ac]" name="logOutHomePage" duration-ms="2467" started-at="2021-05-31T13:24:46Z" description="3 - Logout from the home page" data-provider="ExcelInfo" finished-at="2021-05-31T13:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1.- Access With Valid User<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2.- Click on Main Menu<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3.- Click on Log Out<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutHomePage -->
+      </class> <!-- testSection.LogOutHomePage -->
+    </test> <!-- Individual Suite Edge -->
+  </suite> <!-- Saucedemo QA -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Saucedemo QA" verbose="10" thread-count="1"
+	parallel="tests">
+	
+	<!-- Groups Information -->
+<!-- 
+	<groups>
+		<run>
+			<include name="Smoke Test" /> 
+		</run>
+	</groups>
+
+-->
+	<!-- Run as a class -->
+	<test name="Individual Suite Chrome" preserve-order="true">
+	<parameter name="browser" value="Chrome">
+			<classes>
+				<class
+					name="testSection.SortProducts" />
+			</classes>
+		</parameter>
+	</test>
+	<test name="Individual Suite FireFox" preserve-order="true">
+	<parameter name="browser" value="FireFox">
+		<classes>
+			<class 
+				name="testSection.SortProducts"/>
+		</classes>
+	</parameter>
+	</test>
+	<test name="Individual Suite Edge" preserve-order="true">
+	<parameter name="browser" value="Edge">
+		<classes>
+			<class 
+				name="testSection.SortProducts"	/>
+		</classes>
+	</parameter>
+	</test>
+</suite>

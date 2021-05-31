@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Saucedemo_QA">
+              <span class="suite-name border-failed">Saucedemo QA</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Saucedemo_QA">
+                    <span>C:\Users\rakna\eclipse-workspace\Saucedemo\src\xmlSection\RegressionSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Saucedemo_QA">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Saucedemo_QA">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Saucedemo_QA">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Saucedemo_QA">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Saucedemo_QA">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Saucedemo_QA">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 3 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Saucedemo_QA" class="hide-methods failed suite-Saucedemo_QA"> (hide)</a> <!-- hide-methods failed suite-Saucedemo_QA -->
+                      <a href="#" panel-name="suite-Saucedemo_QA" class="show-methods failed suite-Saucedemo_QA"> (show)</a> <!-- show-methods failed suite-Saucedemo_QA -->
+                    </span>
+                    <div class="method-list-content failed suite-Saucedemo_QA">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.AddSpecificProduct" hash-for-method="addSpecificProduct(standard_user, secret_sauce)">addSpecificProduct(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.CompletePurchase" hash-for-method="completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.MultipleItemsShopping" hash-for-method="multipleItemsShopping(standard_user, secret_sauce)">multipleItemsShopping(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Saucedemo_QA -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Saucedemo_QA" class="hide-methods passed suite-Saucedemo_QA"> (hide)</a> <!-- hide-methods passed suite-Saucedemo_QA -->
+                      <a href="#" panel-name="suite-Saucedemo_QA" class="show-methods passed suite-Saucedemo_QA"> (show)</a> <!-- show-methods passed suite-Saucedemo_QA -->
+                    </span>
+                    <div class="method-list-content passed suite-Saucedemo_QA">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.AddSpecificProduct" hash-for-method="addSpecificProduct(standard_user, secret_sauce)">addSpecificProduct(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.AddSpecificProduct" hash-for-method="addSpecificProduct(standard_user, secret_sauce)">addSpecificProduct(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.CompletePurchase" hash-for-method="completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.CompletePurchase" hash-for-method="completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogInInvalidUser" hash-for-method="logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogInInvalidUser" hash-for-method="logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogInInvalidUser" hash-for-method="logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogInValidUser" hash-for-method="logInValidUser(standard_user, secret_sauce)">logInValidUser(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogInValidUser" hash-for-method="logInValidUser(standard_user, secret_sauce)">logInValidUser(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogInValidUser" hash-for-method="logInValidUser(standard_user, secret_sauce)">logInValidUser(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogOutHomePage" hash-for-method="logOutHomePage(standard_user, secret_sauce)">logOutHomePage(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogOutHomePage" hash-for-method="logOutHomePage(standard_user, secret_sauce)">logOutHomePage(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.LogOutHomePage" hash-for-method="logOutHomePage(standard_user, secret_sauce)">logOutHomePage(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.MultipleItemsShopping" hash-for-method="multipleItemsShopping(standard_user, secret_sauce)">multipleItemsShopping(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.MultipleItemsShopping" hash-for-method="multipleItemsShopping(standard_user, secret_sauce)">multipleItemsShopping(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.SortProducts" hash-for-method="sortProductsLowToHigh(standard_user, secret_sauce)">sortProductsLowToHigh(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.SortProducts" hash-for-method="sortProductsLowToHigh(standard_user, secret_sauce)">sortProductsLowToHigh(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Saucedemo_QA" title="testSection.SortProducts" hash-for-method="sortProductsLowToHigh(standard_user, secret_sauce)">sortProductsLowToHigh(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Saucedemo_QA -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Saucedemo_QA" class="panel Saucedemo_QA">
+          <div class="suite-Saucedemo_QA-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testSection.AddSpecificProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSpecificProduct(standard_user, secret_sauce)">
+                  </a> <!-- addSpecificProduct(standard_user, secret_sauce) -->
+                  <span class="method-name">addSpecificProduct</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;item_2_title_link&quot; href=&quot;#&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2QOES4O&apos;, ip: &apos;192.168.1.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 23804, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b6bf0378-3d4f-499e-9a32-75e9ad1dfa88
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProductScreen.clickOnesie(ProductScreen.java:99)
+	at testSection.AddSpecificProduct.addSpecificProduct(AddSpecificProduct.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                  <em>
+(6 - Add Specific Items to the shopping cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-failed -->
+          <div class="suite-Saucedemo_QA-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testSection.MultipleItemsShopping</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleItemsShopping(standard_user, secret_sauce)">
+                  </a> <!-- multipleItemsShopping(standard_user, secret_sauce) -->
+                  <span class="method-name">multipleItemsShopping</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;item_4_title_link&quot; href=&quot;#&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2QOES4O&apos;, ip: &apos;192.168.1.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 15076, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7a5c9c04-a570-4fb2-adca-cddbb02c2b86
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProductScreen.clickBackPack(ProductScreen.java:88)
+	at testSection.MultipleItemsShopping.multipleItemsShopping(MultipleItemsShopping.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                  <em>
+(5 - Add Multiple Items to the shopping cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-failed -->
+          <div class="suite-Saucedemo_QA-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testSection.CompletePurchase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)">
+                  </a> <!-- completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647) -->
+                  <span class="method-name">completePurchase</span>
+                  <span class="parameters">(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;item_2_title_link&quot; href=&quot;#&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2QOES4O&apos;, ip: &apos;192.168.1.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210504152106, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 21040, moz:profile: C:\Users\rakna\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e14d42bc-254a-43d7-8b01-e132c7d1d382
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pageObjects.ProductScreen.clickOnesie(ProductScreen.java:99)
+	at testSection.CompletePurchase.completePurchase(CompletePurchase.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                  <em>
+(7 - Complete Purchase Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-failed -->
+          <div class="suite-Saucedemo_QA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSection.AddSpecificProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSpecificProduct(standard_user, secret_sauce)">
+                  </a> <!-- addSpecificProduct(standard_user, secret_sauce) -->
+                  <span class="method-name">addSpecificProduct</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(6 - Add Specific Items to the shopping cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSpecificProduct(standard_user, secret_sauce)">
+                  </a> <!-- addSpecificProduct(standard_user, secret_sauce) -->
+                  <span class="method-name">addSpecificProduct</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(6 - Add Specific Items to the shopping cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-passed -->
+          <div class="suite-Saucedemo_QA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSection.MultipleItemsShopping</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleItemsShopping(standard_user, secret_sauce)">
+                  </a> <!-- multipleItemsShopping(standard_user, secret_sauce) -->
+                  <span class="method-name">multipleItemsShopping</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(5 - Add Multiple Items to the shopping cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multipleItemsShopping(standard_user, secret_sauce)">
+                  </a> <!-- multipleItemsShopping(standard_user, secret_sauce) -->
+                  <span class="method-name">multipleItemsShopping</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(5 - Add Multiple Items to the shopping cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-passed -->
+          <div class="suite-Saucedemo_QA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSection.CompletePurchase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)">
+                  </a> <!-- completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647) -->
+                  <span class="method-name">completePurchase</span>
+                  <span class="parameters">(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+                  <em>
+(7 - Complete Purchase Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)">
+                  </a> <!-- completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647) -->
+                  <span class="method-name">completePurchase</span>
+                  <span class="parameters">(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+                  <em>
+(7 - Complete Purchase Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-passed -->
+          <div class="suite-Saucedemo_QA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSection.LogInInvalidUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)">
+                  </a> <!-- logInInvalidValidUser(invalid_user, test1, alejandro, fernandez) -->
+                  <span class="method-name">logInInvalidValidUser</span>
+                  <span class="parameters">(invalid_user, test1, alejandro, fernandez)</span>
+                  <em>
+(2 - Login with an invalid user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)">
+                  </a> <!-- logInInvalidValidUser(invalid_user, test1, alejandro, fernandez) -->
+                  <span class="method-name">logInInvalidValidUser</span>
+                  <span class="parameters">(invalid_user, test1, alejandro, fernandez)</span>
+                  <em>
+(2 - Login with an invalid user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)">
+                  </a> <!-- logInInvalidValidUser(invalid_user, test1, alejandro, fernandez) -->
+                  <span class="method-name">logInInvalidValidUser</span>
+                  <span class="parameters">(invalid_user, test1, alejandro, fernandez)</span>
+                  <em>
+(2 - Login with an invalid user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-passed -->
+          <div class="suite-Saucedemo_QA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSection.LogInValidUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInValidUser(standard_user, secret_sauce)">
+                  </a> <!-- logInValidUser(standard_user, secret_sauce) -->
+                  <span class="method-name">logInValidUser</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(1 - Login with a valid user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInValidUser(standard_user, secret_sauce)">
+                  </a> <!-- logInValidUser(standard_user, secret_sauce) -->
+                  <span class="method-name">logInValidUser</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(1 - Login with a valid user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInValidUser(standard_user, secret_sauce)">
+                  </a> <!-- logInValidUser(standard_user, secret_sauce) -->
+                  <span class="method-name">logInValidUser</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(1 - Login with a valid user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-passed -->
+          <div class="suite-Saucedemo_QA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSection.LogOutHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutHomePage(standard_user, secret_sauce)">
+                  </a> <!-- logOutHomePage(standard_user, secret_sauce) -->
+                  <span class="method-name">logOutHomePage</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(3 - Logout from the home page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutHomePage(standard_user, secret_sauce)">
+                  </a> <!-- logOutHomePage(standard_user, secret_sauce) -->
+                  <span class="method-name">logOutHomePage</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(3 - Logout from the home page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutHomePage(standard_user, secret_sauce)">
+                  </a> <!-- logOutHomePage(standard_user, secret_sauce) -->
+                  <span class="method-name">logOutHomePage</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(3 - Logout from the home page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-passed -->
+          <div class="suite-Saucedemo_QA-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testSection.SortProducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProductsLowToHigh(standard_user, secret_sauce)">
+                  </a> <!-- sortProductsLowToHigh(standard_user, secret_sauce) -->
+                  <span class="method-name">sortProductsLowToHigh</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(4 - Sort Products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProductsLowToHigh(standard_user, secret_sauce)">
+                  </a> <!-- sortProductsLowToHigh(standard_user, secret_sauce) -->
+                  <span class="method-name">sortProductsLowToHigh</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(4 - Sort Products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortProductsLowToHigh(standard_user, secret_sauce)">
+                  </a> <!-- sortProductsLowToHigh(standard_user, secret_sauce) -->
+                  <span class="method-name">sortProductsLowToHigh</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                  <em>
+(4 - Sort Products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Saucedemo_QA-class-passed -->
+        </div> <!-- panel Saucedemo_QA -->
+        <div panel-name="test-xml-Saucedemo_QA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rakna\eclipse-workspace\Saucedemo\src\xmlSection\RegressionSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;Saucedemo QA&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Regression Suite&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testSection.LogInValidUser&quot;/&gt;
+      &lt;class name=&quot;testSection.LogInInvalidUser&quot;/&gt;
+      &lt;class name=&quot;testSection.LogOutHomePage&quot;/&gt;
+      &lt;class name=&quot;testSection.SortProducts&quot;/&gt;
+      &lt;class name=&quot;testSection.MultipleItemsShopping&quot;/&gt;
+      &lt;class name=&quot;testSection.AddSpecificProduct&quot;/&gt;
+      &lt;class name=&quot;testSection.CompletePurchase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Suite --&gt;
+  &lt;test name=&quot;Individual Suite FireFox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;FireFox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testSection.LogInValidUser&quot;/&gt;
+      &lt;class name=&quot;testSection.LogInInvalidUser&quot;/&gt;
+      &lt;class name=&quot;testSection.LogOutHomePage&quot;/&gt;
+      &lt;class name=&quot;testSection.SortProducts&quot;/&gt;
+      &lt;class name=&quot;testSection.MultipleItemsShopping&quot;/&gt;
+      &lt;class name=&quot;testSection.AddSpecificProduct&quot;/&gt;
+      &lt;class name=&quot;testSection.CompletePurchase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Individual Suite FireFox --&gt;
+  &lt;test name=&quot;Individual Suite Edge&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testSection.LogInValidUser&quot;/&gt;
+      &lt;class name=&quot;testSection.LogInInvalidUser&quot;/&gt;
+      &lt;class name=&quot;testSection.LogOutHomePage&quot;/&gt;
+      &lt;class name=&quot;testSection.SortProducts&quot;/&gt;
+      &lt;class name=&quot;testSection.MultipleItemsShopping&quot;/&gt;
+      &lt;class name=&quot;testSection.AddSpecificProduct&quot;/&gt;
+      &lt;class name=&quot;testSection.CompletePurchase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Individual Suite Edge --&gt;
+&lt;/suite&gt; &lt;!-- Saucedemo QA --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Saucedemo_QA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Saucedemo QA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Suite (7 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Individual Suite FireFox (7 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Individual Suite Edge (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Saucedemo_QA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Saucedemo QA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Saucedemo_QA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Saucedemo QA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Saucedemo_QA');
+function tableData_Saucedemo_QA() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'completePurchase')
+data.setCell(0, 2, 'testSection.CompletePurchase')
+data.setCell(0, 3, 42950);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'multipleItemsShopping')
+data.setCell(1, 2, 'testSection.MultipleItemsShopping')
+data.setCell(1, 3, 35638);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addSpecificProduct')
+data.setCell(2, 2, 'testSection.AddSpecificProduct')
+data.setCell(2, 3, 27563);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logOutHomePage')
+data.setCell(3, 2, 'testSection.LogOutHomePage')
+data.setCell(3, 3, 17350);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addSpecificProduct')
+data.setCell(4, 2, 'testSection.AddSpecificProduct')
+data.setCell(4, 3, 14414);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logInValidUser')
+data.setCell(5, 2, 'testSection.LogInValidUser')
+data.setCell(5, 3, 5246);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logInInvalidValidUser')
+data.setCell(6, 2, 'testSection.LogInInvalidUser')
+data.setCell(6, 3, 5171);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'completePurchase')
+data.setCell(7, 2, 'testSection.CompletePurchase')
+data.setCell(7, 3, 3277);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sortProductsLowToHigh')
+data.setCell(8, 2, 'testSection.SortProducts')
+data.setCell(8, 3, 2835);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logOutHomePage')
+data.setCell(9, 2, 'testSection.LogOutHomePage')
+data.setCell(9, 3, 2777);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addSpecificProduct')
+data.setCell(10, 2, 'testSection.AddSpecificProduct')
+data.setCell(10, 3, 2756);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'completePurchase')
+data.setCell(11, 2, 'testSection.CompletePurchase')
+data.setCell(11, 3, 2755);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sortProductsLowToHigh')
+data.setCell(12, 2, 'testSection.SortProducts')
+data.setCell(12, 3, 2545);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sortProductsLowToHigh')
+data.setCell(13, 2, 'testSection.SortProducts')
+data.setCell(13, 3, 2534);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'logOutHomePage')
+data.setCell(14, 2, 'testSection.LogOutHomePage')
+data.setCell(14, 3, 2467);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'multipleItemsShopping')
+data.setCell(15, 2, 'testSection.MultipleItemsShopping')
+data.setCell(15, 3, 1047);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'logInValidUser')
+data.setCell(16, 2, 'testSection.LogInValidUser')
+data.setCell(16, 3, 415);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'logInValidUser')
+data.setCell(17, 2, 'testSection.LogInValidUser')
+data.setCell(17, 3, 351);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'multipleItemsShopping')
+data.setCell(18, 2, 'testSection.MultipleItemsShopping')
+data.setCell(18, 3, 326);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'logInInvalidValidUser')
+data.setCell(19, 2, 'testSection.LogInInvalidUser')
+data.setCell(19, 3, 312);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'logInInvalidValidUser')
+data.setCell(20, 2, 'testSection.LogInInvalidUser')
+data.setCell(20, 3, 218);
+window.suiteTableData['Saucedemo_QA']= { tableData: data, tableDiv: 'times-div-Saucedemo_QA'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Saucedemo_QA">
+              </div> <!-- times-div-Saucedemo_QA -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Saucedemo_QA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Saucedemo QA</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logOutHomePage(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Main Menu<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Click on Log Out<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addSpecificProduct(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+                <span class="reporter-method-output"><br>Step 4.- Click on Onesie Item<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 6.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br>Step 7.- Click Cart Icon<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 8.- Your Cart title is displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 9.- Oneside Was Added</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Invalid User<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sortProductsLowToHigh(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">multipleItemsShopping(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Select Backpack product<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 3.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 4.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 5.- Validate If Product Detail Remove button is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 6.- Click Back To Products button<br></span>
+                <span class="reporter-method-output"><br>Step 7.- Select Bike Light product<br></span>
+                <span class="reporter-method-output"><br>Step 8.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 9.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 10.- Validate If Product Detail Remove button is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 11.- Click Cart Icon<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 12.- Your Cart title is displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 13.- Backpack Was Added</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 14.- Bike Light Was Added</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logInValidUser(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+                <span class="reporter-method-output"><br>Step 4.- Click on Onesie Item<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 6.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br>Step 7.- Click Cart Icon<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 8.- Your Cart title is displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 9.- Oneside Was Added</b><br></span>
+                <span class="reporter-method-output"><br>Step 10.- Click CheckOut button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 11.- Your Infromation Was Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 12.- Set Valid User Information<br></span>
+                <span class="reporter-method-output"><br>Step 13.- Click Continue button<br></span>
+                <span class="reporter-method-output"><br>Step 14.- Scroll to Finish button<br></span>
+                <span class="reporter-method-output"><br>Step 15.- Scroll to Finish button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 16.- Completed Screen was displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 17.- Thanks Text was displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logInValidUser(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sortProductsLowToHigh(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Invalid User<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logOutHomePage(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Main Menu<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Click on Log Out<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">multipleItemsShopping(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addSpecificProduct(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Invalid User<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+                <span class="reporter-method-output"><br>Step 4.- Click on Onesie Item<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 6.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br>Step 7.- Click Cart Icon<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 8.- Your Cart title is displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 9.- Oneside Was Added</b><br></span>
+                <span class="reporter-method-output"><br>Step 10.- Click CheckOut button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 11.- Your Infromation Was Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 12.- Set Valid User Information<br></span>
+                <span class="reporter-method-output"><br>Step 13.- Click Continue button<br></span>
+                <span class="reporter-method-output"><br>Step 14.- Scroll to Finish button<br></span>
+                <span class="reporter-method-output"><br>Step 15.- Scroll to Finish button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 16.- Completed Screen was displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 17.- Thanks Text was displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addSpecificProduct(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+                <span class="reporter-method-output"><br>Step 4.- Click on Onesie Item<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 6.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br>Step 7.- Click Cart Icon<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 8.- Your Cart title is displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 9.- Oneside Was Added</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sortProductsLowToHigh(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Filter List<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Select Filter Low to High<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">multipleItemsShopping(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Select Backpack product<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 3.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 4.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 5.- Validate If Product Detail Remove button is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 6.- Click Back To Products button<br></span>
+                <span class="reporter-method-output"><br>Step 7.- Select Bike Light product<br></span>
+                <span class="reporter-method-output"><br>Step 8.- Click Add to Cart button<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 9.- Validate If Product Detail Title is Displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 10.- Validate If Product Detail Remove button is Displayed</b><br></span>
+                <span class="reporter-method-output"><br>Step 11.- Click Cart Icon<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 12.- Your Cart title is displayed</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 13.- Backpack Was Added</b><br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 14.- Bike Light Was Added</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logInValidUser(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logOutHomePage(standard_user, secret_sauce)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br>Step 1.- Access With Valid User<br></span>
+                <span class="reporter-method-output"><br>Step 2.- Click on Main Menu<br></span>
+                <span class="reporter-method-output"><br>Step 3.- Click on Log Out<br></span>
+                <span class="reporter-method-output"><br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Saucedemo_QA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Saucedemo_QA" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Chrome)</span>
+                <span class="method-start">10450 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Chrome)</span>
+                <span class="method-start">29730 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Chrome)</span>
+                <span class="method-start">40088 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Chrome)</span>
+                <span class="method-start">51426 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Chrome)</span>
+                <span class="method-start">72196 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Chrome)</span>
+                <span class="method-start">100428 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInValidUser(standard_user, secret_sauce)</span>
+                <span class="method-start">107491 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</span>
+                <span class="method-start">112754 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logOutHomePage(standard_user, secret_sauce)</span>
+                <span class="method-start">117937 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortProductsLowToHigh(standard_user, secret_sauce)</span>
+                <span class="method-start">135302 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">multipleItemsShopping(standard_user, secret_sauce)</span>
+                <span class="method-start">137848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addSpecificProduct(standard_user, secret_sauce)</span>
+                <span class="method-start">179298 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+                <span class="method-start">206873 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">249825 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">250462 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">251176 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">251816 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">252433 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">253078 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">253728 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(FireFox)</span>
+                <span class="method-start">254367 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(FireFox)</span>
+                <span class="method-start">277839 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(FireFox)</span>
+                <span class="method-start">302483 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(FireFox)</span>
+                <span class="method-start">325064 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(FireFox)</span>
+                <span class="method-start">347432 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(FireFox)</span>
+                <span class="method-start">375231 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(FireFox)</span>
+                <span class="method-start">403963 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInValidUser(standard_user, secret_sauce)</span>
+                <span class="method-start">420040 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</span>
+                <span class="method-start">420404 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logOutHomePage(standard_user, secret_sauce)</span>
+                <span class="method-start">420726 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortProductsLowToHigh(standard_user, secret_sauce)</span>
+                <span class="method-start">423512 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">multipleItemsShopping(standard_user, secret_sauce)</span>
+                <span class="method-start">426357 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addSpecificProduct(standard_user, secret_sauce)</span>
+                <span class="method-start">426692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+                <span class="method-start">429457 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">432213 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">440723 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">444594 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">461303 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">472433 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">477822 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">516212 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Edge)</span>
+                <span class="method-start">517949 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Edge)</span>
+                <span class="method-start">538690 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Edge)</span>
+                <span class="method-start">551735 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Edge)</span>
+                <span class="method-start">567845 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Edge)</span>
+                <span class="method-start">593813 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Edge)</span>
+                <span class="method-start">624386 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setDriver(Edge)</span>
+                <span class="method-start">676674 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInValidUser(standard_user, secret_sauce)</span>
+                <span class="method-start">725492 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInInvalidValidUser(invalid_user, test1, alejandro, fernandez)</span>
+                <span class="method-start">725925 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logOutHomePage(standard_user, secret_sauce)</span>
+                <span class="method-start">726152 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sortProductsLowToHigh(standard_user, secret_sauce)</span>
+                <span class="method-start">728628 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">multipleItemsShopping(standard_user, secret_sauce)</span>
+                <span class="method-start">731183 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addSpecificProduct(standard_user, secret_sauce)</span>
+                <span class="method-start">732237 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">completePurchase(standard_user, secret_sauce, Alejandro, Fernandez, 66647)</span>
+                <span class="method-start">746663 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.AddSpecificProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">749940 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.CompletePurchase</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">764545 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInInvalidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">779120 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogInValidUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">793337 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.LogOutHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">798613 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.MultipleItemsShopping</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">817954 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testSection.SortProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">removeDriver</span>
+                <span class="method-start">822690 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

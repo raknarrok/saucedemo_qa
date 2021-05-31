@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Saucedemo QA" verbose="10" thread-count="1"
+	parallel="tests">
+	
+	<!-- Groups Information -->
+<!-- 
+	<groups>
+		<run>
+			<include name="Smoke Test" /> 
+		</run>
+	</groups>
+
+-->
+	<!-- Run as a class -->
+	<test name="Regression Suite" preserve-order="true">
+		<parameter name="browser" value="Chrome">
+			<classes>
+				<class
+					name="testSection.LogInValidUser" />
+				<class
+					name="testSection.LogInInvalidUser" />
+				<class
+					name="testSection.LogOutHomePage" />
+				<class
+					name="testSection.SortProducts" />
+				<class
+					name="testSection.MultipleItemsShopping" />
+				<class
+					name="testSection.AddSpecificProduct" />
+				<class
+					name="testSection.CompletePurchase" />
+			</classes>
+		</parameter>
+	</test>
+	<test name="Individual Suite FireFox" preserve-order="true">
+		<parameter name="browser" value="FireFox">
+			<classes>
+				<class
+					name="testSection.LogInValidUser" />
+				<class
+					name="testSection.LogInInvalidUser" />
+				<class
+					name="testSection.LogOutHomePage" />
+				<class
+					name="testSection.SortProducts" />
+				<class
+					name="testSection.MultipleItemsShopping" />
+				<class
+					name="testSection.AddSpecificProduct" />
+				<class
+					name="testSection.CompletePurchase" />
+			</classes>
+		</parameter>
+	</test>
+	<test name="Individual Suite Edge" preserve-order="true">
+		<parameter name="browser" value="Edge">
+			<classes>
+				<class
+					name="testSection.LogInValidUser" />
+				<class
+					name="testSection.LogInInvalidUser" />
+				<class
+					name="testSection.LogOutHomePage" />
+				<class
+					name="testSection.SortProducts" />
+				<class
+					name="testSection.MultipleItemsShopping" />
+				<class
+					name="testSection.AddSpecificProduct" />
+				<class
+					name="testSection.CompletePurchase" />
+			</classes>
+		</parameter>
+	</test>
+</suite>

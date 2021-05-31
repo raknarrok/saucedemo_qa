@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>TestNG:  Individual Suite Edge</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Individual Suite Edge</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 31 13:21:18 CDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>316 seconds (316267 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testSection.AddSpecificProduct.addSpecificProduct()'><b>addSpecificProduct</b><br>Test class: testSection.AddSpecificProduct<br>Test method: 6 - Add Specific Items to the shopping cart<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1335345588" onClick='toggleBox("Output-1335345588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1335345588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1335345588">
+<br>Step 1.- Access With Valid User<br><br/>
+<br>Step 2.- Click on Filter List<br><br/>
+<br>Step 3.- Select Filter Low to High<br><br/>
+<br>Step 4.- Click on Onesie Item<br><br/>
+<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br><br/>
+<br>Step 6.- Click Add to Cart button<br><br/>
+<br>Step 7.- Click Cart Icon<br><br/>
+<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br><br/>
+<br><b style="color:green">Step 9.- Oneside Was Added</b><br><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>testSection.AddSpecificProduct@3abbfa04</td></tr>
+<tr>
+<td title='testSection.CompletePurchase.completePurchase()'><b>completePurchase</b><br>Test class: testSection.CompletePurchase<br>Test method: 7 - Complete Purchase Flow<br>Parameters: standard_user, secret_sauce, Alejandro, Fernandez, 66647<br/>
+<a href="#Output-1209056817" onClick='toggleBox("Output-1209056817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209056817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209056817">
+<br>Step 1.- Access With Valid User<br><br/>
+<br>Step 2.- Click on Filter List<br><br/>
+<br>Step 3.- Select Filter Low to High<br><br/>
+<br>Step 4.- Click on Onesie Item<br><br/>
+<br><b style="color:green">Step 5.- Validate If Product Detail Title is Displayed</b><br><br/>
+<br>Step 6.- Click Add to Cart button<br><br/>
+<br>Step 7.- Click Cart Icon<br><br/>
+<br><b style="color:green">Step 8.- Your Cart title is displayed</b><br><br/>
+<br><b style="color:green">Step 9.- Oneside Was Added</b><br><br/>
+<br>Step 10.- Click CheckOut button<br><br/>
+<br><b style="color:green">Step 11.- Your Infromation Was Displayed</b><br><br/>
+<br>Step 12.- Set Valid User Information<br><br/>
+<br>Step 13.- Click Continue button<br><br/>
+<br>Step 14.- Scroll to Finish button<br><br/>
+<br>Step 15.- Scroll to Finish button<br><br/>
+<br><b style="color:green">Step 16.- Completed Screen was displayed</b><br><br/>
+<br><b style="color:green">Step 17.- Thanks Text was displayed</b><br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testSection.CompletePurchase@57fffcd7</td></tr>
+<tr>
+<td title='testSection.LogInInvalidUser.logInInvalidValidUser()'><b>logInInvalidValidUser</b><br>Test class: testSection.LogInInvalidUser<br>Test method: 2 - Login with an invalid user<br>Parameters: invalid_user, test1, alejandro, fernandez<br/>
+<a href="#Output-1620327957" onClick='toggleBox("Output-1620327957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620327957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620327957">
+<br>Step 1.- Access With Invalid User<br><br/>
+<br><b style="color:green">Step 2.- Validate Error Banner is Displayed</b><br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testSection.LogInInvalidUser@464bee09</td></tr>
+<tr>
+<td title='testSection.LogInValidUser.logInValidUser()'><b>logInValidUser</b><br>Test class: testSection.LogInValidUser<br>Test method: 1 - Login with a valid user<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1547792310" onClick='toggleBox("Output-1547792310", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1547792310" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1547792310">
+<br>Step 1.- Access With Valid User<br><br/>
+<br><b style="color:green">Step 2.- Validate Product Screen Displayed</b><br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testSection.LogInValidUser@6eebc39e</td></tr>
+<tr>
+<td title='testSection.LogOutHomePage.logOutHomePage()'><b>logOutHomePage</b><br>Test class: testSection.LogOutHomePage<br>Test method: 3 - Logout from the home page<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1565161750" onClick='toggleBox("Output-1565161750", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1565161750" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1565161750">
+<br>Step 1.- Access With Valid User<br><br/>
+<br>Step 2.- Click on Main Menu<br><br/>
+<br>Step 3.- Click on Log Out<br><br/>
+<br><b style="color:green">Step 4.- Validate Login Button is Displayed</b><br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testSection.LogOutHomePage@f6c48ac</td></tr>
+<tr>
+<td title='testSection.MultipleItemsShopping.multipleItemsShopping()'><b>multipleItemsShopping</b><br>Test class: testSection.MultipleItemsShopping<br>Test method: 5 - Add Multiple Items to the shopping cart<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-452486973" onClick='toggleBox("Output-452486973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-452486973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-452486973">
+<br>Step 1.- Access With Valid User<br><br/>
+<br>Step 2.- Select Backpack product<br><br/>
+<br><b style="color:green">Step 3.- Validate If Product Detail Title is Displayed</b><br><br/>
+<br>Step 4.- Click Add to Cart button<br><br/>
+<br><b style="color:green">Step 5.- Validate If Product Detail Remove button is Displayed</b><br><br/>
+<br>Step 6.- Click Back To Products button<br><br/>
+<br>Step 7.- Select Bike Light product<br><br/>
+<br>Step 8.- Click Add to Cart button<br><br/>
+<br><b style="color:green">Step 9.- Validate If Product Detail Title is Displayed</b><br><br/>
+<br><b style="color:green">Step 10.- Validate If Product Detail Remove button is Displayed</b><br><br/>
+<br>Step 11.- Click Cart Icon<br><br/>
+<br><b style="color:green">Step 12.- Your Cart title is displayed</b><br><br/>
+<br><b style="color:green">Step 13.- Backpack Was Added</b><br><br/>
+<br><b style="color:green">Step 14.- Bike Light Was Added</b><br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testSection.MultipleItemsShopping@239963d8</td></tr>
+<tr>
+<td title='testSection.SortProducts.sortProductsLowToHigh()'><b>sortProductsLowToHigh</b><br>Test class: testSection.SortProducts<br>Test method: 4 - Sort Products<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1245853862" onClick='toggleBox("Output-1245853862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1245853862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1245853862">
+<br>Step 1.- Access With Valid User<br><br/>
+<br>Step 2.- Click on Filter List<br><br/>
+<br>Step 3.- Select Filter Low to High<br><br/>
+<br><b style="color:green">Step 4.- Validate If Items are Sort from Low to High</b><br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testSection.SortProducts@13deb50e</td></tr>
+</table><p>
+</body>
+</html>
