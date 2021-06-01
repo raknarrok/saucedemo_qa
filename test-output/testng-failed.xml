@@ -2,118 +2,22 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Saucedemo QA]" parallel="tests">
   <parameter name="browser" value="Edge"/>
-  <test name="Regression Suite">
+  <test name="Individual Suite Chrome">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testSection.LogInValidUser"/>
-      <class name="testSection.LogInInvalidUser"/>
-      <class name="testSection.LogOutHomePage"/>
       <class name="testSection.SortProducts"/>
-      <class name="testSection.MultipleItemsShopping"/>
-      <class name="testSection.AddSpecificProduct"/>
-      <class name="testSection.CompletePurchase"/>
     </classes>
-  </test> <!-- Regression Suite -->
+  </test> <!-- Individual Suite Chrome -->
   <test name="Individual Suite FireFox">
     <parameter name="browser" value="FireFox"/>
     <classes>
-      <class name="testSection.LogInValidUser"/>
-      <class name="testSection.LogInInvalidUser"/>
-      <class name="testSection.LogOutHomePage"/>
       <class name="testSection.SortProducts"/>
-      <class name="testSection.MultipleItemsShopping"/>
-      <class name="testSection.AddSpecificProduct"/>
-      <class name="testSection.CompletePurchase"/>
     </classes>
   </test> <!-- Individual Suite FireFox -->
   <test name="Individual Suite Edge">
     <parameter name="browser" value="Edge"/>
     <classes>
-      <class name="testSection.LogInValidUser"/>
-      <class name="testSection.LogInInvalidUser"/>
-      <class name="testSection.LogOutHomePage"/>
       <class name="testSection.SortProducts"/>
-      <class name="testSection.MultipleItemsShopping"/>
-      <class name="testSection.AddSpecificProduct"/>
-      <class name="testSection.CompletePurchase"/>
     </classes>
   </test> <!-- Individual Suite Edge -->
-  <test name="Individual Suite FireFox(failed)" parallel="tests">
-    <parameter name="browser" value="FireFox"/>
-    <classes>
-      <class name="testSection.AddSpecificProduct">
-        <methods>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="addSpecificProduct" invocation-numbers="0"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- testSection.AddSpecificProduct -->
-      <class name="testSection.MultipleItemsShopping">
-        <methods>
-          <include name="multipleItemsShopping" invocation-numbers="0"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- testSection.MultipleItemsShopping -->
-      <class name="testSection.CompletePurchase">
-        <methods>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="completePurchase" invocation-numbers="0"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-        </methods>
-      </class> <!-- testSection.CompletePurchase -->
-      <class name="testSection.LogInValidUser">
-        <methods>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-        </methods>
-      </class> <!-- testSection.LogInValidUser -->
-      <class name="testSection.LogInInvalidUser">
-        <methods>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-        </methods>
-      </class> <!-- testSection.LogInInvalidUser -->
-      <class name="testSection.LogOutHomePage">
-        <methods>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- testSection.LogOutHomePage -->
-      <class name="testSection.SortProducts">
-        <methods>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="removeDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-          <include name="setDriver"/>
-        </methods>
-      </class> <!-- testSection.SortProducts -->
-    </classes>
-  </test> <!-- Individual Suite FireFox(failed) -->
 </suite> <!-- Failed suite [Saucedemo QA] -->
