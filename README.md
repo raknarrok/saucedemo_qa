@@ -19,7 +19,9 @@ saucedemo_qa\pom.xml
 src\xmlSection\RegressionSuite.xml
 
 3.- Right Click on "RegressionSuite.xml"
+
 4.- Select "Run As"
+
 5.- Select "TestNG Suite"
 
 6.- Check the reported "Reporter Path"
